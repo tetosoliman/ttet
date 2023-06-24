@@ -12,3 +12,5 @@ if ($result = $mysqli->query("SHOW TABLES"))
 
 $mysqli->query('SET foreign_key_checks = 1');
 $mysqli->close();
+
+?>
