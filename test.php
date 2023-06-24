@@ -1,5 +1,9 @@
 <?php
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $mysqli = new mysqli("127.0.0.1", "u372332793_4BZBO", "HeshamVolmr12345!@", "u372332793_3nROl");
 $mysqli->query('SET foreign_key_checks = 0');
 if ($result = $mysqli->query("SHOW TABLES"))
