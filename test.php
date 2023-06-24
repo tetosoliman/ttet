@@ -1,3 +1,5 @@
+<?php
+
 $mysqli = new mysqli("host", "my_user", "my_password", "database");
 $mysqli->query('SET foreign_key_checks = 0');
 if ($result = $mysqli->query("SHOW TABLES"))
